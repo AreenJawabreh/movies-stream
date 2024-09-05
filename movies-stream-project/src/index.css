@@ -1,0 +1,350 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Quicksand:wght@300..700&display=swap');
+
+/* base styles */
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Quicksand";
+}
+.App{
+  display: flex;
+  max-height: 100vh;
+  max-width: 100wh;
+  background-color: #181715;
+  color: white;
+
+}
+.main-content
+{
+  flex: 1;
+}
+
+
+/****************************LeftSideBar******************/
+.Leftsidebar.img 
+{
+
+justify-content: center;
+align-items: center;
+}
+.Leftsidebar
+{
+  display: flex;
+  flex-direction: column;
+width: 200px;
+height: 100vh;
+  background-color: #181715;
+  color: white;
+  margin: 0%;
+  justify-content: center;
+align-items: center;
+border-right: 3px solid grey;
+
+
+}
+
+.LeftSideBarIcons :hover
+{
+  color: #FFA41C;
+}
+.leftSideBarRow
+{
+  width: 29.58px;
+height: 38.92px;
+top: 5.4px;
+left: 10.21px;
+gap: 0px;
+opacity: 0px;
+
+}
+.circle-border-container {
+  padding: 10px;
+  border: 2px solid #1d1d1d;
+  border-radius: 30px;
+  margin-top: 20px;
+  transition: all 0.5s ease;
+  overflow: hidden; /* Ensures any overflow content is hidden */
+}
+
+.circle-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+
+.Leftsidebar .circle {
+    width: 40px;
+    height: 40px;
+   
+    overflow: hidden;
+}
+
+
+.circle img {
+  width: 40px;
+  height: 40px;
+  transition: transform 0.3s ease;
+}
+
+.circle img:hover {
+  transform: scale(1.05); 
+}
+
+.plus-circle {
+  margin-top: 15px;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  border: 2px solid #FFA41C;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 24px;
+  font-weight: bold;
+  color: #FFA41C;
+  cursor: pointer; 
+}
+.icon-container {
+  display: flex;
+  gap: 40px;
+  margin-top: 30px;
+}
+
+.switch-icon {
+  color: #FFA41C;
+  font-size: 40px;
+}
+
+.logout-icon {
+  color: red;
+  font-size: 40px;
+}
+/*****************************************************************************************************/
+/*navbar*/
+.navbar-content {
+  display: flex;
+  align-items: center;
+  padding: 15px;
+  
+  background-color: #181715; 
+  color: white;
+  justify-content: space-between; 
+}
+
+.navbar-content h1 {
+  font-size: 22px; 
+}
+
+.searchbar {
+  display: flex;
+  align-items: center;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  padding: 5px;
+  background-color: white;
+  width: 300px;
+}
+
+.search-button {
+  background: none;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 18px;
+}
+
+.search-input {
+  border: none;
+  border-radius: 10px;
+  padding: 3px;
+  font-size: 16px; 
+}
+
+.search-input:focus {
+  outline: none;
+}
+
+.filter-button {
+  display: flex;
+  align-items: center;
+ 
+}
+
+.filter-button button {
+  background-color: #FFA41C;
+  border: none;
+  border-radius: 6px;
+  padding: 5px;
+  cursor: pointer;
+}
+
+
+/******************************************************************************************/
+/*RightSideBar*/
+.rightsidebar
+{
+
+  padding-left: 30px;
+ align-content: center;
+  width: 200px;
+  height:100vh;
+  background-color: #181715;
+  color: white;
+  border-left: 3px solid grey;
+}
+.Rightsidebarbutton
+{
+ 
+  background-color: #181715;
+  color: white;
+  width: 94px;
+height: 41px;
+top: 969px;
+left: 1542px;
+gap: 0px;
+opacity: 0px;
+border: none;
+border-radius: 10px;
+
+
+}
+.Rightsidebarbutton:hover{
+  background-color: #FFA41C;
+}
+.MediaRightSideBarList
+{
+  list-style-type: none;
+}
+.GenreRightSideBarList
+{
+ 
+  list-style-type: none;
+}
+
+.Media{
+  margin-bottom: 30px
+}
+
+/****************************************************************/
+/* HomeContent */
+.home-content1 {
+  display: flex;
+}
+
+.image-container {
+  position: relative;
+  padding: 20px;
+}
+
+.image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.overlay-content {
+  position: absolute;
+  bottom: 30px;
+  left: 30px;
+  color: white;
+  font-size: 18px;
+  padding: 5px;
+  border-radius: 5px;
+  align-items: center;
+}
+.overlay-content-top{
+  position: absolute;
+  top: 30px;
+  left: 30px;
+  font-weight: bold;
+  
+}
+.overlay-content-top-squid-game{
+  position: absolute;
+  top: 30px;
+  left: 30px;
+  color: #151411;
+  background: white; 
+  padding: 5px;
+  border-radius: 15px;
+  font-weight: bold;
+  
+}
+.home-content2 {
+  display: flex;
+}
+
+.left-section {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  flex: 2;
+}
+
+.continue-watching {
+  margin-bottom: 30px;
+  display: flex;
+  gap: 20px;
+}
+
+.remaining {
+  font-weight: 300;
+}
+
+.see-more-button {
+  background-color: #151515;
+  color: #FFA41C;
+  border-radius: 6px;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+.continu-watching-images {
+  display: flex;
+}
+
+.second-image22 {
+  padding: 20px;
+  flex: 1;
+}
+.overlay-content-below {
+  display: flex;
+  margin-top: 10px;
+  font-size: 16px;
+  color: white;
+  background: #151411; 
+  padding: 5px;
+  border-radius: 5px;
+  
+}
+/**************************/
+/* animation for images in home content */
+.home-content .image-container img ,
+.home-content .second-image22 img
+{
+  transition: transform 0.3s ease;
+}
+
+.home-content .image-container img:hover 
+,
+.home-content .second-image22 img:hover{
+  transform: scale(1.05); 
+}
+
+.home-content .image-container ,
+.home-content .second-image22 {
+  position: relative;
+}
+
+.overlay-content, .overlay-content-below , .second-image22{
+  transition: opacity 0.3s ease;
+}
+
+.image-container:hover .overlay-content,
+.image-container:hover .overlay-content-below 
+.image-container:hover .second-image22{
+  opacity: 1; 
+}
