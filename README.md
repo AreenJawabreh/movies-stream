@@ -6,15 +6,13 @@ this project is about a movie website that shows a good amount of movies, this p
  
 # Table of content:
 * Features
-* Usage
-* Project Structure
 * Technologies Used
 ---
 
 # Features:
-* Home Page: Gives general view of the main 
-* Left Side Bar: component provides a user profile section, logout icon and other setting icons.
-* Right Side Bar: offers an organized sidebar with two main sections: Media Service and Genre.
+* Home Page: Gives general view of the website, having the LeftSideBar, RightSideBar and the navbar. 
+* Left Side Bar: It provides a user profile section, logout icon and other setting icons.
+* Right Side Bar: It offers an organized sidebar with two main sections: Media Service and Genre.
 * Searcing: The user can search on any movie by using the search bar on the navbar, this makes it ea
 * Main content area: showcases a variety of media content, including highlighted series and movies with rating indicators.The layout includes a section for continuing watching with a dynamic display of images.
 * Hover effects: The hover effect on images enhances user interaction by providing visual feedback when a user moves their cursor over an image
