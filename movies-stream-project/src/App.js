@@ -3,7 +3,6 @@ import RightSideBar from './RightSideBarFolder/RightSideBar';
 import LeftSideBar from "./LeftSideBarFolder/LeftSideBar";
 import NavbarFile from "./navbar";
 import HomeContent from "./HomeContent";
-//import { BrowserRouter as Router ,Route,Switch } from 'react-router-dom/cjs/react-router-dom.min';
 function App() {
   return (
     <div className="App">
