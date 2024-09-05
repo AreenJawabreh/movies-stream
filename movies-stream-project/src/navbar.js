@@ -8,7 +8,7 @@ const NavbarFile = () => {
             <h1>Discover your favourites.</h1>
             <div style={{display:'flex',gap:'10px'}}>
             <div className="searchbar">
-                <div className="icon-container">
+                <div className="search-bar-icon-container">
                     <FontAwesomeIcon icon={faSearch} style={{ color: 'grey' }} />
                 </div>
                 <input type="text" placeholder="Search here.." className="search-input" />
